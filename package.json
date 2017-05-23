@@ -1,5 +1,5 @@
 {
-  "name": "@weivea/webpack-dev-middleware",
+  "name": "webpack-dev-middleware-weivea",
   "version": "1.10.2",
   "author": "Tobias Koppers @sokra 修改 by weijianli",
   "description": "Offers a dev middleware for webpack, which arguments a live bundle to a directory",
