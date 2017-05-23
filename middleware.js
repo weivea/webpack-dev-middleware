@@ -43,6 +43,11 @@ module.exports = function(compiler, options) {
 		shared.handleRequest(filename, processRequest, req);
 
 		function processRequest() {
+			// 我的修改~~/////
+			if(context.options.serverSideRender && /\.html$/.test(req.url)){
+				return goNext();
+			}
+			/////
 			try {
 				var stat = context.fs.statSync(filename);
 				if(!stat.isFile()) {

@@ -1,7 +1,7 @@
 {
-  "name": "webpack-dev-middleware",
+  "name": "@weivea/webpack-dev-middleware",
   "version": "1.10.2",
-  "author": "Tobias Koppers @sokra",
+  "author": "Tobias Koppers @sokra 修改 by weijianli",
   "description": "Offers a dev middleware for webpack, which arguments a live bundle to a directory",
   "peerDependencies": {
     "webpack": "1 || ^2.1.0-beta || ^2.2.0-rc.0"
@@ -29,11 +29,11 @@
   "engines": {
     "node": ">=0.6"
   },
-  "homepage": "http://github.com/webpack/webpack-dev-middleware",
+  "homepage": "https://github.com/weivea/webpack-dev-middleware",
   "main": "middleware.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/webpack/webpack-dev-middleware.git"
+    "url": "https://github.com/weivea/webpack-dev-middleware.git"
   },
   "files": [
     "middleware.js",

@@ -13,6 +13,8 @@
   <h1>webpack Dev Middleware</h1>
 </div>
 
+## 支持了自定义渲染模板
+
 It's a simple wrapper middleware for webpack. It serves the files emitted from webpack over a connect server. This should be used for **development only**.
 
 It has a few advantages over bundling it as files:
